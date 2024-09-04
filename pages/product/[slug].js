@@ -40,7 +40,7 @@ const ProductDetails = ({ product, products }) => {
 
         <div className="product-detail-desc">
           <h1>{name}</h1>
-          <div className="reviews">
+          {/* <div className="reviews">
             <div>
               <AiFillStar />
               <AiFillStar />
@@ -49,9 +49,29 @@ const ProductDetails = ({ product, products }) => {
               <AiOutlineStar />
             </div>
             <p>(20)</p>
-          </div>
+          </div> */}
           <h4>Details:</h4>
-          <p>{details}</p>
+          <p><ul>
+            <li><strong>Country of Origin:</strong> INDIA</li>
+            <li><strong>Composition:</strong> 100% Terry Cotton</li>
+            <li><strong>GSM:</strong> 240</li>
+            <li><strong>Color:</strong> (colour)</li>
+            <li><strong>Type:</strong> UNISEX T-Shirt</li>
+            <li><strong>Neckline:</strong> Round Neck</li>
+            <li><strong>Fit:</strong> Oversized</li>
+            <li><strong>Size and Fit:</strong> Model (Height 5'8") is wearing size M</li>
+          </ul>
+            <p><strong>LITTLE THINGS THAT MATTER MUCH</strong></p>
+            <ul>
+              <li>Colours may slightly vary due to photographic lighting sources.</li>
+              <li>Product specifications mentioned above may vary by +/- 10%.</li>
+              <li>All products have different sizes, so please refer to the size chart.</li>
+              <li>Our sizes do not vary by more than +/- 0.5 inches.</li>
+              <li>For any returns and exchanges, please refer to the return and exchange page.</li>
+              <li>For any further assistance, contact us at <a href="mailto:koppedkulture@gmail.com">koppedkulture@gmail.com</a> or WhatsApp at <a href="tel:number">(number)</a>.</li>
+            </ul>
+            <p><strong>NOTE:</strong> Normal machine wash and don't iron directly on print.</p>
+          </p>
           <p className="price">Rs.{price}</p>
 
           <div className="size-selector">

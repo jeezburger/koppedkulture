@@ -56,9 +56,33 @@ a {
   padding: 10px;
 }
 
+.logo-and-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  /* Adjust spacing between links as needed */
+  margin-left: 60px;
+  /* Increase this value to move the links further to the right */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  /* Makes the text white */
+  font-weight: 400;
+  /* Optional: bold text */
+  font-size: 16px;
+  /* Optional: adjust the font size */
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 6px 18px;
   position: relative;
 }
@@ -612,6 +636,7 @@ span.text-red {
 
 .size-selector {
   margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .size-selector select {
