@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { AiOutlineShopping } from 'react-icons/ai';
-
+import Policy from '@/pages/policy';
 import { Cart } from './';
 import { useStateContext } from '../context/StateContext';
 
@@ -17,7 +17,7 @@ const Navbar = () => {
           </Link>
         </p>
         <div className="nav-links">
-          <Link href="/policies">Policies</Link>
+          <Link href="/policy">Policies</Link>
           <Link href="/shipments">Shipments</Link>
         </div>
       </div>
