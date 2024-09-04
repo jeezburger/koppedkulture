@@ -85,6 +85,32 @@ a {
   align-items: center;
   margin: 6px 18px;
   position: relative;
+  z-index: 10;
+}
+
+.sale-banner {
+  position: relative;
+  width: 100%;
+  /* Ensure it covers the full width */
+  background-color: #ff4d4f;
+  /* Red color for sale banner */
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 8px 0;
+  margin: 0;
+  /* Ensure no margins are added */
+}
+
+.sale-banner-text {
+  display: inline-block;
+  font-weight: 700;
+  padding-left: 100%;
+  /* Start outside the view */
+  margin: 0;
+  /* Ensure no margins are added */
 }
 
 .marquee-text {

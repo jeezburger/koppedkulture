@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { AiOutlineShopping } from 'react-icons/ai';
-import Policy from '@/pages/policy';
 import { Cart } from './';
 import { useStateContext } from '../context/StateContext';
+import SaleBanner from './salebanner';
 
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -28,6 +28,9 @@ const Navbar = () => {
       </button>
 
       {showCart && <Cart />}
+
+      {/* Add Sale Banner */}
+      {/* <SaleBanner /> */}
     </div>
   )
 }
