@@ -56,6 +56,9 @@ a {
   padding: 10px;
 }
 
+
+
+
 .logo-and-links {
   display: flex;
   align-items: center;
@@ -90,19 +93,24 @@ a {
 
 .sale-banner {
   position: relative;
-  width: 100%;
-  /* Ensure it covers the full width */
+  width: calc(100% + 20px);
+  /* Adjust based on the global padding */
+  margin-left: -10px;
+  /* Counteract the left global padding */
+  margin-right: -10px;
+  /* Counteract the right global padding */
   background-color: #ff4d4f;
   /* Red color for sale banner */
   color: white;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
-  padding: 8px 0;
-  margin: 0;
-  /* Ensure no margins are added */
+  padding: 10px 0;
+  /* Own padding for SaleBanner */
+  margin-bottom: 15px;
 }
+
 
 .sale-banner-text {
   display: inline-block;
@@ -112,6 +120,7 @@ a {
   margin: 0;
   /* Ensure no margins are added */
 }
+
 
 .marquee-text {
   font-size: 29px;
