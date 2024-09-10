@@ -7,13 +7,16 @@ const HeroBanner = ({ heroBanner }) => {
   return (
     <div className="hero-banner-container">
       <div>
-
-
-
-        <img src={urlFor(heroBanner.image)} alt="headphones" className="hero-banner-image" />
-
+        <video
+          src={'/assets/hero.mp4'}
+          alt="hero video"
+          className="hero-banner-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
         {/* <div>
-
           <div className="desc">
             <h5>Description</h5>
             <p>{heroBanner.desc}</p>
@@ -24,4 +27,4 @@ const HeroBanner = ({ heroBanner }) => {
   )
 }
 
-export default HeroBanner
+export default HeroBanner;

@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="logo-and-links">
         <p className="logo">
           <Link href="/">
-            <img src="/assets/1SX.png" alt="Kopped Kulture" />
+            <img src="/assets/DDC.png" alt="Kopped Kulture" />
           </Link>
         </p>
         <div className="nav-links">
