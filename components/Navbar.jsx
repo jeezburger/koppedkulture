@@ -17,8 +17,8 @@ const Navbar = () => {
           </Link>
         </p>
         <div className="nav-links">
-          <Link href="/policy">Policies</Link>
-          <Link href="/shipments">Shipments</Link>
+          {/* <Link href="/policy">Policies</Link>
+          <Link href="/shipments">Shipments</Link> */}
         </div>
       </div>
 
