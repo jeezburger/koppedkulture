@@ -103,10 +103,9 @@ const Cart = () => {
               {/* <button type="button" className="btn" onClick={handleCheckout}>
                 Pay with Razorpay
               </button> */}
-              <button type="button" className="btn">
+              <Link href="https://rzp.io/l/koppedkulture" className="btn">
                 Pay with Razorpay
-              </button>
-
+              </Link>
             </div>
           </div>
         )}
