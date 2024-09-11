@@ -1,30 +1,50 @@
-import React from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 
-import { urlFor } from '../lib/client';
+const HeroBanner = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-const HeroBanner = ({ heroBanner }) => {
+  useEffect(() => {
+    // Function to handle resizing of window and updating the screen size
+    const handleResize = () => {
+      if (typeof window !== 'undefined') {
+        setIsSmallScreen(window.innerWidth < 768);
+      }
+    };
+
+    // Initialize screen size on component mount
+    handleResize();
+
+    // Add an event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="hero-banner-container">
-      <div>
+      {/* Conditionally render video or image based on screen size */}
+      {isSmallScreen ? (
         <video
-          src={'/assets/hero.mp4'}
+          src="/assets/hero.mp4"
           alt="hero video"
-          className="hero-banner-video"
+          style={{ width: '100%' }}
           autoPlay
           loop
           muted
           playsInline
         />
-        {/* <div>
-          <div className="desc">
-            <h5>Description</h5>
-            <p>{heroBanner.desc}</p>
-          </div>
-        </div> */}
-      </div>
+      ) : (
+        <img
+          src="/assets/LS.png"
+          alt="hero image"
+          style={{ width: '40%' }}
+        />
+      )}
     </div>
-  )
-}
+  );
+};
 
 export default HeroBanner;

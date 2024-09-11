@@ -50,6 +50,10 @@ const ProductDetails = ({ product, products }) => {
             </div>
             <p>(20)</p>
           </div> */}
+          <p className="price">
+            Rs.<s style={{ marginRight: '8px' }}>1999</s> Rs.{price}
+          </p>
+
           <h4>Details:</h4>
           <p><ul>
             <li><strong>Country of Origin:</strong> INDIA</li>
@@ -72,7 +76,7 @@ const ProductDetails = ({ product, products }) => {
             </ul>
             <p><strong>NOTE:</strong> Normal machine wash and don't iron directly on print.</p>
           </p>
-          <p className="price">Rs.{price}</p>
+
 
           <div className="size-selector">
             <h3>Choose Size:</h3>
