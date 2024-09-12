@@ -96,7 +96,7 @@ const ProductDetails = ({ product, products }) => {
             <li><strong>Fit:</strong> Oversized</li>
             <li><strong>Size and Fit:</strong> Model (Height 5'8") is wearing size M</li>
           </ul>
-            <p><strong>LITTLE THINGS THAT MATTER MUCH</strong></p>
+            <p><strong>LITTLE THINGS THAT MATTER MUCH</strong></p> <br></br>
             <ul>
               <li>Soft and Comfortable: Made from high-quality Terry Cotton for all-day comfort.</li>
               <li>Breathable Fabric: Keeps you cool and comfortable in any weather.</li>
@@ -113,7 +113,7 @@ const ProductDetails = ({ product, products }) => {
               <li>Extra Large</li>
             </ul>
             <p><strong>NOTE:</strong> Machine wash cold with like colors, Tumble dry low or hang dry</p>
-            <p><strong>NOTE:</strong> Order yours today and experience the comfort and style of a tshirt with Kopped Kulture.</p>
+            <p><strong>Order yours today and experience the comfort and style of a tshirt with Kopped Kulture.</strong> </p>
           </p>
         </div>
       </div>
