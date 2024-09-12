@@ -85,7 +85,7 @@ const ProductDetails = ({ product, products }) => {
 
           </div>
 
-          <h4> <br></br> <br></br>Details:</h4>
+          <h4> <br></br> <br></br>Additional Features:</h4>
           <p><ul>
             <li><strong>Country of Origin:</strong> INDIA</li>
             <li><strong>Composition:</strong> 100% Terry Cotton</li>
@@ -98,14 +98,22 @@ const ProductDetails = ({ product, products }) => {
           </ul>
             <p><strong>LITTLE THINGS THAT MATTER MUCH</strong></p>
             <ul>
-              <li>Colours may slightly vary due to photographic lighting sources.</li>
-              <li>Product specifications mentioned above may vary by +/- 10%.</li>
-              <li>All products have different sizes, so please refer to the size chart.</li>
-              <li>Our sizes do not vary by more than +/- 0.5 inches.</li>
-              <li>For any returns and exchanges, please refer to the return and exchange page.</li>
-              <li>For any further assistance, contact us at <a href="mailto:koppedkulture@gmail.com">koppedkulture@gmail.com</a> or WhatsApp at <a href="tel:number">(number)</a>.</li>
+              <li>Soft and Comfortable: Made from high-quality Terry Cotton for all-day comfort.</li>
+              <li>Breathable Fabric: Keeps you cool and comfortable in any weather.</li>
+              <li>Relaxed Fit: Provides a comfortable, flattering silhouette.</li>
+              <li>Classic Round Neckline: A timeless and versatile design.</li>
+              <li>Unisex Style: Suitable for everyone.</li>
+          <br></br>
             </ul>
-            <p><strong>NOTE:</strong> Normal machine wash and don't iron directly on print.</p>
+            <h4>Available Sizes</h4>
+            <ul>
+              <li>Small</li>
+              <li>Medium</li>
+              <li>Large</li>
+              <li>Extra Large</li>
+            </ul>
+            <p><strong>NOTE:</strong> Machine wash cold with like colors, Tumble dry low or hang dry</p>
+            <p><strong>NOTE:</strong> Order yours today and experience the comfort and style of a tshirt with Kopped Kulture.</p>
           </p>
         </div>
       </div>
