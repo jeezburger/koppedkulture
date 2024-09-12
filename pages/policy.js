@@ -8,8 +8,8 @@ const Policy = () => {
             <section className="contact-us">
                 <div>
                     <h2>Contact Us</h2>
-                    <p><strong>Email:</strong> koppedkulture@gmail.com</p>
-                    <p><strong>Address:</strong> 6-35/138, SFS DDA FLATS, Sector-6, PKT 1, DWARKA, PH-1 NEW DELHI, Dwarka Sec-6, Dwarka, New Delhi, South West Delhi, Delhi - 110075, India</p>
+                    <p><strong> Reach out to our friendly customer service team. </strong> <br> <strong> Email: </strong> koppedkulture@gmail.com </p>
+                    <p><strong>Address:</strong> G-35/138, SFS DDA FLATS, Sector-6, PKT 1, DWARKA, PH-1 NEW DELHI, Dwarka Sec-6, Dwarka, New Delhi, South West Delhi, Delhi - 110075, India</p>
                 </div>
             </section>
 
