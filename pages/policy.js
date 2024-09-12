@@ -40,41 +40,24 @@ const Policy = () => {
 
             <section className="return-policy">
                 <div>
-                    <h2>Got a change of heart or size? No worries, but here's the deal:</h2>
+                    <h2>Return Policy </h2>
                     <br />
 
-                    <h3>Returns:</h3>
+                    <h3>Refund Policy:</h3>
                     <p>
-                        Within 7 days of getting your goodies, if your order was <strong>PRE-PAID</strong> and not COD
-                        (we do not accept returns on COD orders, only PRE-PAID orders can be returned), and they're
-                        still with the tags, unwashed, and unworn, WhatsApp us on
-                        <a href="https://wa.me/917777019901">+91 7777019901</a>.
+                        We hope you love what you ordered, but if the vibe wasn’t right, here’s how we’ll get your refund rolling:
                     </p>
                     <p>
-                        We're only keeping Rs. 100 <strong>PER PRODUCT</strong> as the return cost, this will require
-                        you to send us Rs. 100 <strong>PER PRODUCT</strong> for us to do the exchange.
-                    </p>
-                    <br />
-
-                    <h3>Exchanges:</h3>
-                    <p>
-                        Swap meet time! Create an exchange request on our WhatsApp number
-                        <a href="https://wa.me/917777019901">+91 7777019901</a>. We'll send a party bus for your items,
-                        and once they're back home and party-ready, we'll send out the new goodies.
+                        <strong>Eligibility:</strong> Refunds are available for <strong>PRE-PAID</strong> orders only. The items must meet our return conditions—tags intact, unwashed, unworn, and returned within 7 days.
                     </p>
                     <p>
-                        But again, this will require you to send us Rs. 100 <strong>PER PRODUCT</strong> for us to do
-                        the exchange. Conditions for exchange are the same as RETURN conditions:
+                        <strong>Processing:</strong> Once we receive your returned items and give them the green light (aka verification is complete), the refund magic happens. We’ll process your refund within 48 hours.
                     </p>
-                    <ul>
-                        <li>Returns are accepted only on PRE-PAID orders and not on COD orders whereas EXCHANGES are accepted on COD orders as well.</li>
-                        <li>The product should be unused, unwashed & unworn.</li>
-                        <li>Charges for both Return or Exchange are Rs. 100/- per product.</li>
-                    </ul>
-                    <br />
-
                     <p>
-                        Please remember, we're like fashion police - anything worn, washed, or used won't be accepted!
+                        <strong>Credit Timeline:</strong> After the refund is processed, the amount will appear in your bank account within 48 hours. So keep an eye on your balance—it’ll be like a little surprise party from us to you!
+                    </p>
+                    <p>
+                        <strong>Important Notes:</strong> Refunds are not applicable for <strong>COD</strong> orders. For those, feel free to opt for an exchange instead!
                     </p>
                 </div>
                 <br />
