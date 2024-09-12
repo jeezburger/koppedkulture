@@ -90,7 +90,6 @@ const ProductDetails = ({ product, products }) => {
             <li><strong>Country of Origin:</strong> INDIA</li>
             <li><strong>Composition:</strong> 100% Terry Cotton</li>
             <li><strong>GSM:</strong> 240</li>
-            <li><strong>Color:</strong> (colour)</li>
             <li><strong>Type:</strong> UNISEX T-Shirt</li>
             <li><strong>Neckline:</strong> Round Neck</li>
             <li><strong>Fit:</strong> Oversized</li>
