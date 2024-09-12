@@ -5,6 +5,14 @@ const Policy = () => {
         <div className="policy-container">
             <h1>Shipment and Return Policies</h1>
 
+            <section className="contact-us">
+                <div>
+                    <h2>Contact Us</h2>
+                    <p><strong>Email:</strong> koppedkulture@gmail.com</p>
+                    <p><strong>Address:</strong> 6-35/138, SFS DDA FLATS, Sector-6, PKT 1, DWARKA, PH-1 NEW DELHI, Dwarka Sec-6, Dwarka, New Delhi, South West Delhi, Delhi - 110075, India</p>
+                </div>
+            </section>
+
             <section className="shipment-policy">
                 <div>
                     <h2>Shipping</h2>
@@ -63,7 +71,6 @@ const Policy = () => {
                 <br />
             </section>
 
-
             <style jsx>{`
                 .policy-container {
                     background-color: black;
@@ -90,6 +97,11 @@ const Policy = () => {
                 p {
                     font-size: 1em;
                     line-height: 1.5;
+                }
+
+                .contact-us p {
+                    font-size: 1em;
+                    margin-bottom: 10px;
                 }
             `}</style>
         </div>
