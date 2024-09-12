@@ -15,7 +15,7 @@ const SaleBanner = () => {
                 }}
             >
                 <span>
-                    SALE! UP TO 50% OFF ON SELECTED ITEMS! &nbsp;  |  &nbsp; SHOP NOW AND SAVE BIG! &nbsp; | &nbsp; LIMITED TIME OFFER!
+                    <strong>Limited time offer | First 1000 customers get ₹500 off | Shop now! Hurry Up!</strong>
                 </span>
             </motion.div>
         </div>
