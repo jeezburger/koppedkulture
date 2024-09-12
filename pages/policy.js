@@ -3,7 +3,7 @@ import React from 'react';
 const Policy = () => {
     return (
         <div className="policy-container">
-            <h1>Shipment and Return Policies</h1>
+            <h1>Contact Us & Shipment - Return Policies</h1>
 
             <section className="contact-us">
                 <div>
