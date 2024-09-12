@@ -716,7 +716,21 @@ span.text-red {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  flex-wrap: wrap;
+  /* Allows wrapping to the next line */
+  justify-content: flex-start;
 }
+
+.small-images-container img {
+  width: calc(33.33% - 10px);
+  /* Ensure 3 images per row, considering the gap */
+  max-width: 65px;
+  /* Set a maximum width for images to prevent compression */
+  height: 65px;
+  /* Maintain the aspect ratio */
+}
+
+
 
 .small-image {
   border-radius: 8px;
