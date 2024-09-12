@@ -54,7 +54,38 @@ const ProductDetails = ({ product, products }) => {
             Rs.<s style={{ marginRight: '8px' }}>1999</s> Rs.{price}
           </p>
 
-          <h4>Details:</h4>
+
+
+          <div className="size-selector">
+            <h3>Choose Size:</h3>
+            <select value={selectedSize} onChange={handleSizeChange}>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="Large">Extra Large</option>
+            </select>
+          </div>
+
+          <div className="quantity">
+            <h3>Quantity:</h3>
+            <p className="quantity-desc">
+              <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
+              <span className="num">{qty}</span>
+              <span className="plus" onClick={incQty}><AiOutlinePlus /></span>
+            </p>
+          </div>
+          <div className="buttons">
+            <button type="button" className="add-to-cart" onClick={() => onAdd({ ...product, size: selectedSize }, qty)}>
+              Add to Cart
+            </button>
+            <button type="button" className="buy-now" onClick={handleBuyNow}>
+              Buy Now
+            </button>
+
+
+          </div>
+
+          <h4> <br></br> <br></br>Details:</h4>
           <p><ul>
             <li><strong>Country of Origin:</strong> INDIA</li>
             <li><strong>Composition:</strong> 100% Terry Cotton</li>
@@ -76,33 +107,6 @@ const ProductDetails = ({ product, products }) => {
             </ul>
             <p><strong>NOTE:</strong> Normal machine wash and don't iron directly on print.</p>
           </p>
-
-
-          <div className="size-selector">
-            <h3>Choose Size:</h3>
-            <select value={selectedSize} onChange={handleSizeChange}>
-              <option value="Small">Small</option>
-              <option value="Medium">Medium</option>
-              <option value="Large">Large</option>
-            </select>
-          </div>
-
-          <div className="quantity">
-            <h3>Quantity:</h3>
-            <p className="quantity-desc">
-              <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
-              <span className="num">{qty}</span>
-              <span className="plus" onClick={incQty}><AiOutlinePlus /></span>
-            </p>
-          </div>
-          <div className="buttons">
-            <button type="button" className="add-to-cart" onClick={() => onAdd({ ...product, size: selectedSize }, qty)}>
-              Add to Cart
-            </button>
-            <button type="button" className="buy-now" onClick={handleBuyNow}>
-              Buy Now
-            </button>
-          </div>
         </div>
       </div>
 

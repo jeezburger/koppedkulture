@@ -688,8 +688,12 @@ span.text-red {
 
 
 .size-selector {
-  margin: 20px 0;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  /* Vertically align the text and dropdown */
+  gap: 10px;
+  /* Add some space between the text and the dropdown */
 }
 
 .size-selector select {

@@ -26,8 +26,8 @@ const Navbar = () => {
               style={{ maxWidth: '30px' }} /* Adjust logo size if needed */
             />
           </Link>
-          <span style={{ display: 'block', marginTop: '5px', fontSize: '14px', fontWeight: 'bold' }}>
-            Kopped Kulture
+          <span style={{ display: 'block', marginTop: '5px', fontSize: '20px', fontWeight: 'bold' }}>
+            Kopped Kulture <br></br>...
           </span>
         </p>
       </div>
