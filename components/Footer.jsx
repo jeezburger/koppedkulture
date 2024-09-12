@@ -10,7 +10,7 @@ const Footer = () => {
         <AiOutlineTwitter />
       </p>
       <p>
-        <Link href="/policy">Shipping Policy </Link>
+        <Link href="/policy">Contact Us & Shipping-Return Policy </Link>
         <Link href="https://www.termsfeed.com/live/f078e3ea-c8bb-4662-b253-d5722ce3ef60">Privacy Policy </Link>
         <Link href="/tandc">T&C </Link>
       </p>
