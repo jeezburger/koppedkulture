@@ -27,7 +27,7 @@ const Navbar = () => {
             />
           </Link>
           <span style={{ display: 'block', marginTop: '5px', fontSize: '20px', fontWeight: 'bold' }}>
-            Kopped Kulture <br></br>...
+            Kopped Kulture <br></br> Crafting Emotions In Every Stitch
           </span>
         </p>
       </div>
