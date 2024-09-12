@@ -51,7 +51,7 @@ const ProductDetails = ({ product, products }) => {
             <p>(20)</p>
           </div> */}
           <p className="price">
-            Rs.<s style={{ marginRight: '8px' }}>1999</s> Rs.{price}
+            Rs.<s style={{ marginRight: '8px' }}>1499</s> Rs.{price}
           </p>
 
           <h4>Details:</h4>
