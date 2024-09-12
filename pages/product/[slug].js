@@ -105,13 +105,8 @@ const ProductDetails = ({ product, products }) => {
               <li>Unisex Style: Suitable for everyone.</li>
           <br></br>
             </ul>
-            <h4>Available Sizes</h4>
-            <ul>
-              <li>Small</li>
-              <li>Medium</li>
-              <li>Large</li>
-              <li>Extra Large</li>
-            </ul>
+
+            
             <p><strong>NOTE:</strong> Machine wash cold with like colors, Tumble dry low or hang dry</p>
             <p><strong>Order yours today and experience the comfort and style of a tshirt with Kopped Kulture.</strong> </p>
           </p>
