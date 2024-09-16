@@ -15,7 +15,7 @@ const SaleBanner = () => {
                 }}
             >
                 <span>
-                    <strong>Sale is Live Now | First 1000 customers get ₹500 off | Shop now! Hurry Up!</strong>
+                    <strong>Sale is Live Now | First 1000 customers get ₹1000 off | Shop now! Hurry Up!</strong>
                 </span>
             </motion.div>
         </div>
