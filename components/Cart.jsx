@@ -12,6 +12,8 @@ const Cart = () => {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
 
+  const maxItems = 3; // Maximum number of distinct items in the cart
+
   const handleCheckout = async () => {
     const stripe = await getStripe();
 
@@ -31,6 +33,20 @@ const Cart = () => {
 
     stripe.redirectToCheckout({ sessionId: data.id });
   }
+
+  // Handle adding a new item to the cart
+  const handleAddToCart = (newItem) => {
+    if (cartItems.length < maxItems) {
+      // Add item logic here if cart contains less than 3 distinct items
+      // Your existing add logic
+    } else {
+      toast.error(`You can only add up to ${maxItems} distinct items.`);
+    }
+  }
+
+  const handleIncrement = (id, size) => {
+    toggleCartItemQuanitity(id, size, 'inc');
+  };
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
@@ -76,7 +92,7 @@ const Cart = () => {
                         <AiOutlineMinus />
                       </span>
                       <span className="num">{item.quantity}</span>
-                      <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, item.size, 'inc')}>
+                      <span className="plus" onClick={() => handleIncrement(item._id, item.size)}>
                         <AiOutlinePlus />
                       </span>
                     </p>
@@ -93,6 +109,7 @@ const Cart = () => {
             </div>
           ))}
         </div>
+
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
@@ -100,9 +117,12 @@ const Cart = () => {
               <h3>₹{totalPrice}</h3>
             </div>
             <div className="btn-container">
-              {/* <button type="button" className="btn" onClick={handleCheckout}>
-                Pay with Razorpay
-              </button> */}
+              {/* Display message about the maximum of three distinct items */}
+              <p className="max-items-msg" style={{ padding: '20px', fontSize: '10px' }}>
+                You can only buy a maximum of 3 distinct t-shirts. Please continue making payment through Razorpay.
+              </p>
+
+
               <Link href="https://rzp.io/l/koppedkulture" className="btn">
                 Pay with Razorpay
               </Link>
@@ -111,7 +131,7 @@ const Cart = () => {
         )}
       </div>
     </div>
-  )
+  );
 }
 
 export default Cart;
