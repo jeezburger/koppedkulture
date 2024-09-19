@@ -119,7 +119,7 @@ const Cart = () => {
             <div className="btn-container">
               {/* Display message about the maximum of three distinct items */}
               <p className="max-items-msg" style={{ padding: '20px', fontSize: '10px' }}>
-                You can only buy a maximum of 3 distinct t-shirts. Please continue making payment through Razorpay.
+                You can only buy a maximum of 5 distinct t-shirts. Please continue making payment through Razorpay.
               </p>
 
 
