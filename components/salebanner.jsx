@@ -15,7 +15,7 @@ const SaleBanner = () => {
                 }}
             >
                 <span>
-                    <strong>Diwali Sale is Live Now | Time Limit Only. | Shop now! </strong>
+                    <strong>End of Season Sale | Time Limit Only. | Shop now! </strong>
                 </span>
             </motion.div>
         </div>
